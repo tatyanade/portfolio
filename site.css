@@ -34,6 +34,13 @@ h2{
   size:22px;
 }
 
+h3{
+  color:'gray';
+  padding-top:15px;
+  font-family: 'Lato', sans-serif;
+  size:18px;
+}
+
 p{
 	color:#222222;
 	font-family: 'Mallanna', sans-serif;
@@ -198,3 +205,39 @@ img{
 }
 
 
+
+
+.author_bio_toggle_wrapper    
+{
+  font-family: 'Lato', sans-serif;
+}
+
+#author_bio_wrap 
+{
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+#author_bio_wrap_toggle 
+{
+    display: block;
+    font-weight: bold;
+    width: 35%;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: grey;
+    text-decoration:none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#author_bio_wrap_toggle:hover 
+{
+    text-decoration:none;
+    color: #ffffff;
+    background: #ffe69b;
+    font-family: 'Lato', sans-serif;
+
+}

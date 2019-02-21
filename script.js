@@ -5,7 +5,7 @@ var fontArray = ["'Montserrat', sans-serif",
 "'Open Sans', sans-serif",
 "'Aleo', serif",
 "'Sarabun', sans-serif",
-"'Alegreya SC', serif"],
+"'Alegreya SC', serif"]
 
 //     selectFont = fontArray[Math.floor(Math.random() * fontArray.length)];
 
@@ -29,3 +29,32 @@ $('img[data-enlargable]').addClass('img-enlargable').click(function(){
         $(this).remove();
     }).appendTo('body');
 });
+
+
+
+
+
+jQuery(document).ready(function($)
+{
+  
+  $("#author_bio_wrap_toggle").click(function()
+  {
+    
+    $("#author_bio_wrap").slideToggle( "slow");
+    
+      // if ($("#author_bio_wrap_toggle").text() == "˅ Expand Author Details ˅")
+      // {         
+      //   $("#author_bio_wrap_toggle").html("^ Hide Author Details ^")
+      // }
+      // else 
+      // {     
+      //   $("#author_bio_wrap_toggle").text("˅ Expand Author Details ˅")
+      // }
+    
+  });  
+  
+});
+
+
+
+
