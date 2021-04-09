@@ -41,6 +41,14 @@ h3{
   size:18px;
 }
 
+h6{
+  	font-family: 'Mallanna', sans-serif;
+
+  color: #A0A0A0 ; 
+  size: 3pt;
+}
+
+
 p{
 	color:#222222;
 	font-family: 'Mallanna', sans-serif;
