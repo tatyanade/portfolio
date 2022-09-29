@@ -1,0 +1,16 @@
+handscans was deleted from portfolio destructive
+alphabet page deleted bc its in illustrations but doesnt  have the individual pngs
+
+make the exthanded page
+
+image manips had nothing on it so shes gonzo
+
+
+took out photos cause who cares but we can put them back
+
+
+possible page:   groups - aglorat   - chaotic interfacedesign lab
+
+redo drawml to include plotter
+
+PS C:\Users\tatya\sites\test2\assets\images\dalle> get-childitem *png | foreach {rename-item $_ $_.name.replace("---","-")}
