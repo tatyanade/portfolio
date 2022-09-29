@@ -1,0 +1,250 @@
+ 
+/*! Squarespace LESS Compiler (less.js language v1.3.3) */
+ @import url('https://fonts.googleapis.com/css?family=Alegreya+SC|Aleo|Fira+Sans|Mallanna|Montserrat|Open+Sans|Playfair+Display|Roboto|Sarabun|Slabo+27px|Staatliches');
+
+
+::selection {
+  background: #ffe69b; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffe69b; /* Gecko Browsers */
+}
+
+
+
+/*<script src="script.js"></script>*/
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+h1{
+	padding-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+	color: 'gray';
+}
+
+
+h2{
+  color:'gray';
+  padding-top:30px;
+  font-family: 'Lato', sans-serif;
+  size:22px;
+}
+
+h3{
+  color:'gray';
+  padding-top:15px;
+  font-family: 'Lato', sans-serif;
+  size:18px;
+}
+
+h6{
+  
+  color: #A0A0A0 ; 
+  size: 3pt;
+}
+
+
+p{
+	color:#222222;
+	font-family: 'Mallanna', sans-serif;
+}
+
+mark{
+  background-color: #ffe69b;
+}
+
+
+li{
+	font-family: 'Mallanna', sans-serif;
+	padding-bottom: 5px;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 50%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ffe69b;
+  padding: 0; 
+}
+
+
+a{
+    color:#808080;
+    text-decoration:none
+}
+a:hover{
+    color:#ffd966;
+    /*#f1c235*/
+    /*ffe69b*/
+    text-decoration:none;
+}
+
+
+nav ul{
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0
+}
+img{
+    border:0;
+    -ms-interpolation-mode:bicubic;
+    vertical-align:middle
+}
+img{
+	padding-top:30px;
+}
+
+
+#mainContent{
+	/*background-color: #696969;*/
+  padding-top: 30px;
+}
+
+.header-position-fixed-left #headerWrapper{
+    position:fixed;
+    /*background-color: #694469;*/
+
+}
+
+
+#canvas{
+    padding-left:85px;
+    padding-right:55px;
+}
+
+#headerWrapper{
+    float:left;
+    width:215px
+
+}
+#header{
+    margin-right:15px
+}
+#pageWrapper,#footerWrapper{
+    width:100%;
+    max-width:760px;
+    float:right
+}
+#page{
+    width:100%
+}
+
+.header-position-fixed-left #pageWrapper,.header-position-fixed-left #footerWrapper{
+    float:none;
+    margin-left:215px
+}
+
+/*@media only screen and (max-width:1000px){
+    #headerWrapper,.header-position-fixed-left #headerWrapper{
+        float:none !important;
+        width:100% !important;
+        position:relative
+    }
+    .main-nav li{
+        float:left;
+        margin-right:1em
+    }
+    #topNav nav .folder ul li{
+        margin-right:1em;
+        width:auto
+    }
+    .main-nav li.folder-collection.folder-open{
+        margin-bottom:1.65em
+    }
+    #topNav nav .folder .subnav{
+        position:absolute
+    }
+    .header-position-fixed-left #pageWrapper,.header-position-fixed-left #footerWrapper{
+        margin-left:0
+    }
+    #logoSpacer{
+        height:45px;
+        overflow:hidden;
+        margin:0
+    }
+    #pageWrapper,#footerWrapper{
+        max-width:100%;
+        width:100%
+    }
+    .folder-open~.active-folder .subnav{
+        display:hidden
+    }
+}*/
+
+
+.grid { 
+  /*background-color: #696969;*/
+  display: grid;
+  /*grid-template-columns: repeat(auto-fill, minmax(500px));*/
+  grid-template-columns: repeat(auto-fill);
+	object-fit: cover;
+
+ /*grid-gap: 20px;*/
+  /*align-items: stretch;*/
+  }
+
+  .gallery { 
+  /*background-color: #696969;*/
+  display: grid;
+  /*grid-template-columns: repeat(auto-fill, minmax(500px));*/
+  /*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/
+	object-fit: cover;
+
+  /*align-items: stretch;*/
+  }
+
+.gallery img {
+  /*border: 5px solid #ccc;*/
+  padding-right: 30px;
+  max-width: 50%;
+}
+
+
+
+
+.author_bio_toggle_wrapper    
+{
+  font-family: 'Lato', sans-serif;
+}
+
+#author_bio_wrap 
+{
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+#author_bio_wrap_toggle 
+{
+    display: block;
+    font-weight: bold;
+    width: 35%;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: grey;
+    text-decoration:none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#author_bio_wrap_toggle:hover 
+{
+    text-decoration:none;
+    color: #ffffff;
+    background: #ffe69b;
+    font-family: 'Lato', sans-serif;
+
+}
